@@ -4,7 +4,7 @@
   {vsn, "0.1.3"},
   {modules, []},
   {registered, []},
-  {applications, []},
+  {applications, [kernel, stdlib]},
   {maintainers, ["Sam Tavakoli"]},
   {licenses, ["Erlang Public License"]},
   {links, [{"Github", "https://github.com/sata/pp_record"}]}
